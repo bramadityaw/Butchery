@@ -687,10 +687,6 @@ video {
   margin-right: 1rem;
 }
 
-.mr-8 {
-  margin-right: 2rem;
-}
-
 .mr-9 {
   margin-right: 2.25rem;
 }
@@ -839,10 +835,6 @@ video {
   width: 460px;
 }
 
-.w-\[650px\] {
-  width: 650px;
-}
-
 .w-full {
   width: 100%;
 }
@@ -887,20 +879,12 @@ video {
   gap: 0.75rem;
 }
 
-.gap-4 {
-  gap: 1rem;
-}
-
 .gap-5 {
   gap: 1.25rem;
 }
 
 .gap-\[130px\] {
   gap: 130px;
-}
-
-.gap-y-2 {
-  row-gap: 0.5rem;
 }
 
 .rounded-2xl {
@@ -998,31 +982,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-slate-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
-}
-
-.bg-slate-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
-}
-
-.bg-gray-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-}
-
 .bg-opacity-30 {
   --tw-bg-opacity: 0.3;
 }
 
-.p-2 {
-  padding: 0.5rem;
-}
-
 .p-1 {
   padding: 0.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .px-10 {
@@ -1129,8 +1098,8 @@ video {
   padding-bottom: 8rem;
 }
 
-.pb-7 {
-  padding-bottom: 1.75rem;
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .pl-1 {
@@ -1193,12 +1162,12 @@ video {
   padding-top: 0.75rem;
 }
 
-.pt-5 {
-  padding-top: 1.25rem;
+.pt-3\.5 {
+  padding-top: 0.875rem;
 }
 
-.pt-6 {
-  padding-top: 1.5rem;
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .pt-9 {
@@ -1374,18 +1343,9 @@ video {
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-gray-100:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-}
-
-.hover\:p-1:hover {
-  padding: 0.25rem;
-}
-
-.hover\:text-white:hover {
+.hover\:text-\[\#9F0804\]:hover {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(159 8 4 / var(--tw-text-opacity));
 }
 
 .hover\:text-\[\#D10B05\]:hover {
@@ -1393,14 +1353,9 @@ video {
   color: rgb(209 11 5 / var(--tw-text-opacity));
 }
 
-.hover\:text-\[\#9F0804\]:hover {
+.hover\:text-white:hover {
   --tw-text-opacity: 1;
-  color: rgb(159 8 4 / var(--tw-text-opacity));
-}
-
-.hover\:shadow-green-500:hover {
-  --tw-shadow-color: #22c55e;
-  --tw-shadow: var(--tw-shadow-colored);
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .focus\:outline-\[\#D10B05\]:focus {
